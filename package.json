@@ -1,0 +1,23 @@
+{
+  "name": "rest-api-mongodb-expressjs",
+  "version": "1.0.0",
+  "description": "upload api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/tomyad08/rest-api-mongodb-expressjs"
+  },
+  "author": "tomy adiansyah",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.4",
+    "nodemon": "^2.0.22"
+  }
+}
