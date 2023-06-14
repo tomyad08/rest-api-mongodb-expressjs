@@ -27,7 +27,10 @@ db.mongoose
     process.exit();
   });
 
-require("./app/routes/produk.routes")(app);
+// require("./app/routes/produk.routes")(app);
+app.get("/", (req, res) => {
+  res.json({ message: "berhasil" });
+});
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => console.log(`server ${PORT} `));
